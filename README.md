@@ -1,4 +1,4 @@
-# APP-GenderGap
+# Applied Policy Project: Gender Gap
 Analysis of gender disparities in computer science education in Virginia.
 # APP Gender Gap Analysis
 
