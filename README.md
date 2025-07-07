@@ -1,8 +1,17 @@
-# Applied Policy Project: Gender Gap
-Analysis of gender disparities in computer science education in Virginia.
-# APP Gender Gap Analysis
+# Applied Policy Project: Gender Gap in Computer Science Education in Virginia
 
-This repository contains R code and data exploring gender disparities in computer science education across Virginia school divisions. The analysis was prepared as part of my Applied Policy Project (APP) for CodeVA.
+This repository contains code, data, and visualizations exploring gender disparities in computer science (CS) education across Virginia’s public school divisions. The analysis was conducted as part of my Applied Policy Project (APP) for CodeVA, Virginia’s leading nonprofit dedicated to expanding K–12 computer science education.
+
+## Project Overview
+
+Despite statewide mandates for CS instruction in Virginia, significant gender gaps persist in high school CS enrollment, with girls consistently underrepresented. This project analyzes district-level data from the Virginia Department of Education to:
+
+- Examine patterns of CS course enrollment by gender and race
+- Visualize geographic disparities in female participation across Virginia
+- Identify districts with particularly low or high female representation
+- Provide insights to inform targeted interventions
+
+While the technical analysis focuses on data exploration and mapping, the full APP report also evaluates policy alternatives—such as teacher training, all-girls CS camps, and digital tools—to help close the gender gap in CS education.
 
 ## How to Knit the Analysis
 
