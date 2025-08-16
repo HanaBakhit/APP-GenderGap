@@ -14,7 +14,7 @@ The original project assessed various strategies—including enhanced teacher tr
 - Geography shows **clusters of low female representation**; performance isn’t explained by size/resources alone.
 - **Most actionable lever**: gender-sensitive **teacher training** paired with course availability and targeted outreach.
 
-> The full APP report (methods, alternatives, cost/feasibility) is available on my [LinkedIn profile](https://www.linkedin.com/in/hana-bakhit-15678f) .
+> The full APP report (methods, alternatives, cost/feasibility) is available on [my LinkedIn](https://www.linkedin.com/in/hana-bakhit-15678f) .
 
 ## Visuals (with code)
 
