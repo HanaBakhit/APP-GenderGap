@@ -49,13 +49,14 @@ codeva_green <- "#7CB342"
 font_add(family = "Times New Roman", regular = "Times New Roman.ttf")
 showtext_auto()
 
-</details>```
+```
+</details>
 
 ### 1) Share of Schools Offering CS by State (Virginia vs. Neighboring States)  
 
 Nationally, states vary widely in how much access they provide to foundational computer science education. As shown in Figure 1, Virginia sits near the middle, with 68% of high schools offering foundational CS courses, which is slightly above the national average (Code.org Advocacy Coalition et al., 2023). This statewide statistic, however, masks important disparities in access and enrollment within Virginia’s school districts.
 
-![States Access graph](images/States_Access_graph) 
+![States Access graph](images/states_access_graph) 
 
 <details>
 <summary>Show code</summary>
@@ -87,7 +88,7 @@ p_states <- ggplot(
     axis.title = element_text(color = "#0A2945"),
     panel.grid.minor = element_blank()
   )                          
-ggsave("images/States_Access_graph.png", p_map, width = 8, height = 6, dpi = 300)
+ggsave("images/states_access_graph.png", p_map, width = 8, height = 6, dpi = 300)
 
 ```
 </details>
