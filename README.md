@@ -56,7 +56,7 @@ showtext_auto()
 
 Nationally, states vary widely in how much access they provide to foundational computer science education. As shown in Figure 1, Virginia sits near the middle, with 68% of high schools offering foundational CS courses, which is slightly above the national average (Code.org Advocacy Coalition et al., 2023). This statewide statistic, however, masks important disparities in access and enrollment within Virginia’s school districts.
 
-![States Access graph](images/states_access_graph) 
+![States Access graph](images/states_access_graph.png) 
 
 <details>
 <summary>Show code</summary>
@@ -88,7 +88,7 @@ p_states <- ggplot(
     axis.title = element_text(color = "#0A2945"),
     panel.grid.minor = element_blank()
   )                          
-ggsave("images/states_access_graph.png", p_map, width = 8, height = 6, dpi = 300)
+ggsave("images/states_access_graph.png", p_states, width = 8, height = 6, dpi = 300)
 
 ```
 </details>
@@ -162,6 +162,7 @@ While this report focuses on gender disparities in CS, enrollment patterns also 
 <summary>Show code</summary>
 
 ```r
+
 race_trend <- schools_data2 %>%
   group_by(Year) %>%
   summarise(
@@ -203,8 +204,7 @@ by_race <- ggplot(race_trend_long, aes(x = Year, y = Enrollment, fill = Race)) +
 ggsave("images/cs_by_race.png", by_race, plot = p, width = 8, height = 6, dpi = 300)
 
 ```
-
-<details>
+</details>
 
 ### 4) Districts with the highest and lowest % of female CS students
 
@@ -216,6 +216,7 @@ Analyzing enrollment trends at the district level reveals important nuances in h
 <summary>Show code</summary>
 
 ```r
+
 plot_data <- districts_data %>%
   filter(Year == "2023-2024", number_enrolled >= 100) %>%
   arrange(pct_female) %>%
@@ -249,8 +250,8 @@ districts_shares -> ggplot(plot_data, aes(x = reorder(Division, pct_female), y =
 ggsave("images/cs_by_districts.png", districts_shares, plot = p, width = 8, height = 6, dpi = 300)
 
 ```
+</details>
 
-<details>
 
 ### 5) Female Representation in High School Computer Science Enrollment by School Division, Virginia (2023–2024)
 
@@ -266,6 +267,7 @@ This illustrates that gender gaps persist even in large, well-resourced division
 <summary>Show code</summary>
 
 ```r
+
 #filter for only Virginia 
 district_boundaries <- district_boundaries %>%
   filter(STATEFP == "51")  # 51 = Virginia
@@ -307,8 +309,9 @@ districts_map -> ggplot(
   )
 
 ggsave("images/cs_map.png", districts_map, plot = p, width = 8, height = 6, dpi = 300)
+
 ```
-<details>
+</details>
 
 
 ## Shapefile Data
