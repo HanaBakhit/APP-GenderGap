@@ -2,7 +2,7 @@
 
 Over the past decade, computer science (CS) has emerged as one of the fastest-growing fields in both education and the workforce. Despite national and statewide efforts to expand access to K–12 CS education, significant disparities persist, particularly along gender lines.
 
-In Virginia—where CS is mandated across K–12 education—girls remain notably underrepresented in high school CS courses. This gender gap reflects more than differences in interest or aptitude; it signals broader patterns of exclusion rooted in classroom environments, teaching practices, early exposure, and unequal access to informal learning opportunities.
+In Virginia, where CS is mandated across K–12 education, girls remain notably underrepresented in high school CS courses. This gender gap reflects more than differences in interest or aptitude; it signals broader patterns of exclusion rooted in classroom environments, teaching practices, early exposure, and unequal access to informal learning opportunities.
 
 This report analyzes district-level data from the Virginia Department of Education (VDOE), aggregated to protect individual school privacy. It was prepared as part of my Applied Policy Project (APP) for CodeVA, Virginia’s leading nonprofit dedicated to K–12 computer science education. Through data exploration and visualizations, the report highlights the extent of gender disparities across Virginia’s school divisions and identifies areas where targeted interventions might have the greatest impact.
 
