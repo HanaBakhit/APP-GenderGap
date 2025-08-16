@@ -93,7 +93,7 @@ ggsave("images/states_access_graph.png", p_states, width = 8, height = 6, dpi = 
 ```
 </details>
 
-### 1) Female Share of CS Enrollment by Division (VA Choropleth)
+### 2) Female Share of CS Enrollment by Division (VA Choropleth)
 
 Enrollment in traditional computer science courses in Virginia high schools, such as AP Computer Science A, AP Computer Science Principles, and introductory programming, has steadily increased. However, this growth has not been equally distributed across all student demographics. Female enrollment, in particular, has seen only modest gains over the past five years. For instance, although girls now make up roughly 25% of students in these courses, this figure has remained relatively flat, increasing by only a few percentage points since 2018.
 
