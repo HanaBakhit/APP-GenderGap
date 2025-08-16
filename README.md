@@ -20,6 +20,17 @@ The original project assessed various strategies—including enhanced teacher tr
 
 ### Important setup
 
+This analysis was conducted in **R** (version 4.x) using RStudio.  
+The repository is self-contained: all input data is stored in the `data/` folder, and all code lives in the `code/` folder. To fully **replicate** the analysis:
+
+1. Install R (≥ 4.0) and RStudio.  
+2. Clone or download this repository.  
+   - Click the green **Code** button above → *Download ZIP*, or clone via Git.  
+3. Install the required R packages (see code snippet below).  
+4. All input data is already provided in the `data/` folder, including VDOE enrollment data.  
+   - Shapefiles must be downloaded separately due to file size (see “Shapefile Data” section).  
+5. Run or knit the R Markdown file in `code/gender_gap_analysis.Rmd` to reproduce the outputs.   
+
 <details>
 <summary>Show code</summary>
   
