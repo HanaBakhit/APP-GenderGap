@@ -161,7 +161,6 @@ While this report focuses on gender disparities in CS, enrollment patterns also 
 <summary>Show code</summary>
 
 ```r
-
 race_trend <- schools_data2 %>%
   group_by(Year) %>%
   summarise(
@@ -201,7 +200,9 @@ by_race <- ggplot(race_trend_long, aes(x = Year, y = Enrollment, fill = Race)) +
     legend.position = "bottom"
   )
 ggsave("images/cs_by_race.png", by_race, plot = p, width = 8, height = 6, dpi = 300)
+
 ```
+
 <details>
 
 ### 4) Districts with the highest and lowest % of female CS students
@@ -245,7 +246,9 @@ districts_shares -> ggplot(plot_data, aes(x = reorder(Division, pct_female), y =
     legend.position = "bottom"
   )
 ggsave("images/cs_by_districts.png", districts_shares, plot = p, width = 8, height = 6, dpi = 300)
+
 ```
+
 <details>
 
 ### 5) Female Representation in High School Computer Science Enrollment by School Division, Virginia (2023–2024)
@@ -305,6 +308,7 @@ districts_map -> ggplot(
 ggsave("images/cs_map.png", districts_map, plot = p, width = 8, height = 6, dpi = 300)
 ```
 <details>
+
 
 ## Shapefile Data
 This project uses Virginia school district boundaries from the U.S. Department of Education's NCES national shapefile:
